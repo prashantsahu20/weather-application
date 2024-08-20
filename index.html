@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background-img">
+    <div id="header1">
+        <div class="container1">
+            <nav>
+                <img src="images/mylogo.png" id="logo1" class="logo1" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="https://www.accuweather.com/en/in/national/satellite" target="_blank"> Maps</a></li>
+                    <li><a href="https://personal-portfolio.prashantsahu3.repl.co" target="_blank">Developer</a></li> 
+                </ul>
+            </nav>
+        </div>
+   
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+            </div>
+        </div>
+
+        <div class="location-not-found">
+            <h1>Sorry, Location not found!!!</h1>
+            <img src="assets/404.png" alt="404 Error">
+        </div>
+
+        <div class="weather-body">
+            <img src="assets/cloud.png" alt="Weather Image" class="weather-img">
+
+            <div class="weather-box">
+                <p class="temperature">0 <sup>°C</sup></p>
+                <p class="description">INVALID DATA</p>
+            </div>
+
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-sharp fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">0%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="wind-speed">0Km/Hr</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</div>
+<!-- <div class="copyright">
+    <p>Copyright &copy Paara  <sup>°C</sup> .<i class="fa-solid fa-cloud-bolt"></i></p>
+</div> -->
+
+<footer>
+    <a href="#">&copy; Paara <sup>°</sup>C | 2023 </a>
+    <a href="#">Policies</a>
+    <a href="#">Contact us</a>
+    <a href="#">FAQ</a>
+</footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/595a890311.js" crossorigin="anonymous"></script>
+</body>
+</html>
